@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <title>(Des)Encriptador Alura</title>
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div alt="(Des)Encriptador">.</div>
+        </header>
+        <main>
+            <section class="bloqueEncriptar">
+                <textarea type="text" class="aEncriptar" placeholder="Ingrese su mensaje aquí"></textarea>
+                <h6 class="indicaciones">Solo letras minúsculas y sin acentos</h6>
+                <div>
+                    <button type="button" class="botones" onclick="BotonEncrip()"> Encriptar </button>
+                    <button type="button" class="botones" onclick="BotonDesEncrip()"> Desencriptar </button>
+                    <button id="copiar" type="button" class="botones" onclick="BotonCopiar()"> Copiar </button>
+                </div>
+            </section>
+            <section>
+                <textarea id="desencrip" type="text"  class="bolqueEncriptado" placeholder="Su mensaje secreto aparecerá aquí"></textarea>        
+            </section>
+        </main>
+    </body>
+    <script src="script.js">
+
+    </script>
+</html>
