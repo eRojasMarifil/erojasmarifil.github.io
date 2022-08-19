@@ -62,7 +62,7 @@ div{
     border-color: #e6ffff;
     color: #e6ffff;
 }
-.bolqueEncriptado{
+.bloqueEncriptado{
     margin: 0 2rem 0 0;
     background-color: rgb(213, 207, 251, 0.1);
     border-radius: .2rem;
@@ -80,7 +80,7 @@ div{
     .bloqueEncriptar{
         width: 100%;
     }
-    .bolqueEncriptado{
+    .bloqueEncriptado{
         height: 20rem;
         margin-top: 1rem;
     }
